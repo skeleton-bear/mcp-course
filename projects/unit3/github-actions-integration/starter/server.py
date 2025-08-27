@@ -275,7 +275,6 @@ async def suggest_template(changes_summary: str, change_type: str) -> str:
 
 
 # ===== Module 2: New GitHub Actions Tools =====
-# ===== Module 2: New GitHub Actions Tools =====
 
 @mcp.tool()
 async def get_recent_actions_events(limit: int = 10) -> str:
